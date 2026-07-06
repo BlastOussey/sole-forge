@@ -1,0 +1,43 @@
+.preview-wrapper {
+  background: #111;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: sticky;
+  top: 84px;
+}
+
+.preview-label {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  color: var(--mid-grey);
+}
+
+.sneaker-svg {
+  width: 100%;
+  height: auto;
+  transition: all 0.4s ease;
+}
+
+.preview-specs {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.spec-tag {
+  font-family: var(--font-display);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: var(--mid-grey);
+  background: var(--border);
+  padding: 3px 10px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
